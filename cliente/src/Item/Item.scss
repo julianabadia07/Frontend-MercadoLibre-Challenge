@@ -1,0 +1,76 @@
+.Item {
+    display: flex;
+    background-color: #ebebeb;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .itemBreadcrumb {
+    width: 75%;
+  }
+  
+  .itemData {
+    width: 72%;
+    padding: 32px;
+    top: 70px;
+    background-color: white;
+    color: #333333;
+    .itemTop {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  .itemInfo {
+    max-width: 250px;
+    .itemPrice {
+      margin-bottom: 32px;
+      font-size: 36px;
+    }
+    .itemName {
+      font-size: 24px;
+      margin-bottom: 32px;
+      font-weight: bold;
+    }
+    .itemBuy {
+      color: #ffffff;
+      background-color: #3483fa;
+      width: 100%;
+      border: 1px solid #3483fa;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+  
+  .itemImage {
+    width: 680px;
+    height: 680px;
+    border-radius: 4px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .itemDetails {
+    margin-bottom: 16px;
+  }
+  
+  .estadoItem,
+  .ventasItem {
+    font-size: 14px;
+  }
+  
+  .itemDescription {
+    max-width: 680px;
+    .itemDescriptionTitle {
+      font-size: 28px;
+      margin-bottom: 32px;
+
+      
+    }
+    .itemDescriptionText {
+            font-size: 20px;
+    }
+  }
+  

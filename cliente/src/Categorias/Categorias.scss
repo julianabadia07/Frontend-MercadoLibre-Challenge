@@ -1,0 +1,22 @@
+
+.Categorias {
+  color: #999999;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.categoriasLink {
+  text-decoration: none;
+  color: #666666;
+  margin-right: 8px;
+}
+
+.categoriasItem:last-child .categoriasIcon {
+  display: none;
+}
+
+.categoriasIcon {
+  margin-right: 8px;
+  font-size: 12px;
+}

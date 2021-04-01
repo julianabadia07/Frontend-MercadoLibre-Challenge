@@ -1,0 +1,43 @@
+  .header {
+    width: 100vw;
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe600;
+    form {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    input[type="search"] {
+        padding-left: 12px;
+     }
+  
+    input[type="search"],
+    input::placeholder {
+      font-size: 18px;
+    }
+  
+    .Search,
+    .searchButton {
+        height: 40px;
+      border: none;
+    }
+    .Search {
+      width: 80%;
+      border-radius: 3px 0 0 3px;
+    }
+    .searchButton {
+      width: 50px;
+            border-radius: 0 3px 3px 0;
+    }
+  }
+  
+  .logo {
+    margin-right: 40px;
+  }
+  
