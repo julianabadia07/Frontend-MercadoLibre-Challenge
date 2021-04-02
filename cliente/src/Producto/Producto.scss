@@ -18,20 +18,21 @@
   margin-left: 16px;
   margin-top: 10px;
   max-width: 300px;
-  span {
+}
+.span {
     display: block;
   }
-  .price {
+     .price {
     margin-bottom: 32px;
     font-size: 24px;
-    .truckIcon {
+  }
+  .truckIcon {
       margin-left: 15px;
     }
-  }
+  
   .productoName {
     font-size: 18px;
   }
-}
 
 .productoLocation {
   margin-top: 12px;
@@ -43,8 +44,9 @@
   width: 180px;
   height: 180px;
   border-radius: 4px;
-  img {
+}
+  .img {
     width: 100%;
     height: 100%;
   }
-}
+

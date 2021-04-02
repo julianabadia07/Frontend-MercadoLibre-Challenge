@@ -5,7 +5,7 @@
     align-items: center;
   }
   
-  .itemBreadcrumb {
+  .itemCategoria {
     width: 75%;
   }
   
@@ -15,15 +15,17 @@
     top: 70px;
     background-color: white;
     color: #333333;
+  }
     .itemTop {
       display: flex;
       justify-content: space-between;
     }
-  }
+  
   
   .itemInfo {
     max-width: 250px;
-    .itemPrice {
+  }
+   .itemPrice {
       margin-bottom: 32px;
       font-size: 36px;
     }
@@ -37,20 +39,21 @@
       background-color: #3483fa;
       width: 100%;
       border: 1px solid #3483fa;
-      height: 40px;
+      height: 50px;
       font-size: 18px;
     }
-  }
+  
   
   .itemImage {
-    width: 680px;
-    height: 680px;
+    width: 600px;
+    height: 600px;
     border-radius: 4px;
-    img {
+  }
+    .img {
       width: 100%;
       height: auto;
     }
-  }
+  
   
   .itemDetails {
     margin-bottom: 16px;
@@ -60,17 +63,15 @@
   .ventasItem {
     font-size: 14px;
   }
-  
-  .itemDescription {
-    max-width: 680px;
-    .itemDescriptionTitle {
+  .itemDescriptionProducto {
+    max-width: 600px;
+  }
+  .itemDescriptionTitulo {
       font-size: 28px;
       margin-bottom: 32px;
-
-      
-    }
-    .itemDescriptionText {
-            font-size: 20px;
-    }
   }
+  .itemDescription {
+    font-size: 20px;
+  }
+  
   

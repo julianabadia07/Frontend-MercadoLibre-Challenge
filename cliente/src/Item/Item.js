@@ -22,13 +22,13 @@ const Item = (props) => {
         <div className="Item">
             {item ? (
                 <>
-                    <div className="itemBreadcrumb">
+                    <div className="itemCategoria">
                         <Categorias categories={item.item.categories} />
                     </div>
                     <div className="itemData">
                         <div className="itemTop">
                             <div className="itemImage">
-                                <img src={item.item.picture} alt="" />
+                                <img className="img" src={item.item.picture} alt="" />
                             </div>
                             <div className="itemInfo">
                                 <div className="itemDetails">
@@ -46,11 +46,11 @@ const Item = (props) => {
                                 <button className="itemBuy">Comprar</button>
                             </div>
                         </div>
-                        <div className="itemDescription">
-                            <div className="itemDescriptionTitle">
+                        <div className="itemDescriptionProducto">
+                            <div className="itemDescriptionTitulo">
                                 Descripción del producto
                   </div>
-                            <div className="itemDescriptionText">
+                            <div className="itemDescription">
                                 {" "}
                                 {item.item.description}
                             </div>

@@ -27,7 +27,7 @@ const Productos = () => {
 
 
     return (
-        <div className="mainContainer">
+        <div className="Productos">
             <div className="container">
                 {productos.items ? (
                     <div className="productBreadcrumb">

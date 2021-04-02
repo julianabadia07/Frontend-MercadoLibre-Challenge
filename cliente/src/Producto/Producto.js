@@ -7,10 +7,10 @@ const Producto = (props) => {
     <div className="Producto">
       <div className="productoData">
         <div className="image">
-          <img src={props.obj.picture} alt="" />
+          <img className="img" src={props.obj.picture} />
         </div>
         <div className="productoDetails">
-          <span className="price">
+          <span className="price span">
             $ {props.obj.price.amount}
               {props.obj.free_shippin ? (
               <img className="truckIcon" src={TruckIcon} alt="free shipping" />

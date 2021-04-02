@@ -18,23 +18,23 @@ const Search = (props) => {
 
     return (
         <header className="header">
-            <form>
+            <form className="form">
                 <a href="//#endregion">
                     <img src={MLlogo} alt="logo MercadoLibre" className="logo" />
                 </a>
                 <input
-                    className="Search"
+                    className="Search input"
                     type="search"
                     placeholder="Nunca dejes de buscar"
-                    onChange={(e) => handleChange(e)}
+                     onChange={(e) => handleChange(e)}
                     aria-label="Nunca dejes de buscar"
                 />
                 <button
-                    className="searchButton"
+                    className="button"
                     type="submit"
                     onClick={(e) => e.preventDefault(handleSubmit())}
                 >
-                    <img src={searchLogo} alt="" />
+                    <img src={searchLogo} />
                 </button>
             </form>
         </header>
